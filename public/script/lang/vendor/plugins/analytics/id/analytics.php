@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'sessions' => 'Sesi',
+    'visitors' => 'Pengunjung',
+    'pageviews' => 'Tayangan halaman',
+    'bounce_rate' => 'Rasio Pentalan',
+    'page_session' => 'Halaman/Sesi',
+    'avg_duration' => 'Rata-rata Durasi',
+    'percent_new_session' => 'Persen sesi baru',
+    'new_users' => 'Pengunjung baru',
+    'visits' => 'kunjungan',
+    'views' => 'pandangan',
+    'view_id_not_specified' => 'Anda harus memberikan id tampilan yang valid. Dokumen di sini: <a href="https://docs.botble.com/cms/master/plugin-analytics" target="_blank">https://docs.botble.com/cms/master/plugin-analytics </a>',
+    'credential_is_not_valid' => 'Kredensial Analytics tidak valid. Dokumen di sini: <a href="https://docs.botble.com/cms/master/plugin-analytics" target="_blank">https://docs.botble.com/cms/master/plugin-analytics </a>',
+    'start_date_can_not_before_end_date' => 'Tanggal mulai :tanggal_mulai tidak boleh setelah tanggal akhir :tanggal_akhir',
+    'wrong_configuration' => 'Untuk melihat analytics, Anda harus mendapatkan id klien google analytics dan menambahkannya ke pengaturan Anda. <br /> Anda juga memerlukan data kredensial JSON. <br /> Dokumen di sini: <a href="https://docs.botble.com/cms/master/plugin-analytics" target="_blank">https://docs.botble.com/cms/master /plugin-analytics</a>',
+    'settings' => [
+        'title' => 'Google Analytics',
+        'description' => 'Kredensial Konfigurasi untuk Google Analytics',
+        'tracking_code' => 'ID Pelacakan',
+        'tracking_code_placeholder' => 'Contoh: GA-12586526-8',
+        'view_id' => 'Lihat ID',
+        'view_id_description' => 'ID Tampilan Google Analytics',
+        'json_credential' => 'Kredensial Akun Layanan',
+        'json_credential_description' => 'Kredensial Akun Layanan',
+    ],
+    'widget_analytics_page' => 'Halaman Kunjungan Teratas',
+    'widget_analytics_browser' => 'Peramban Teratas',
+    'widget_analytics_referrer' => 'Perujuk Teratas',
+    'widget_analytics_general' => 'Analisis Situs',
+];

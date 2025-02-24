@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'create' => 'Buat postingan baru',
+    'edit' => 'Sunting postingan',
+    'form' => [
+        'name' => 'Nama',
+        'name_placeholder' => 'Nama Postingan (Maksimum :c karakter)',
+        'description' => 'Keterangan',
+        'description_placeholder' => 'Deskripsi singkat untuk posting (Maksimum :c karakter)',
+        'categories' => 'Kategori',
+        'tags' => 'Tag',
+        'tags_placeholder' => 'Tag',
+        'content' => 'Isi',
+        'is_featured' => 'Ditampilkan?',
+        'note' => 'Isi catatan',
+        'format_type' => 'Format',
+    ],
+    'cannot_delete' => 'Postingan tidak dapat dihapus',
+    'post_deleted' => 'Postingan dihapus',
+    'posts' => 'Posting',
+    'post' => 'Pos',
+    'edit_this_post' => 'Sunting postingan ini',
+    'no_new_post_now' => 'Tidak ada postingan baru sekarang!',
+    'menu_name' => 'Posting',
+    'widget_posts_recent' => 'Tulisan Terbaru',
+    'categories' => 'Kategori',
+    'category' => 'Kategori',
+    'author' => 'Pengarang',
+];
